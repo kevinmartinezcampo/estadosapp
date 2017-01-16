@@ -1,0 +1,159 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+ @font-face{
+ 	font-family:'Righteous';
+ 	src :url(../fonts/Righteous-Regular.ttf);
+ }
+ .cuerpo{
+ 	background-color:#e0e0e0;
+ }
+ .banner{
+ 	background: url(../img/banner.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+ }
+ .encabezado{
+ 	margin:0;
+ 	width: 100%;
+ 	 height:auto;
+ 	text-align: center;
+    font-family: 'Righteous';
+    color: white;
+    box-shadow: 0px 3px 8px #424242;
+ }
+ .encabezado h3 {
+ 	margin-top: 130px;
+ }
+ .titulo{
+ 	background: transparent;
+ 	width: auto;
+ 	height: auto;
+ 	position: absolute;
+ 	right: 2px;
+ 	font-family: 'Righteous';
+ 	color: white;
+ 	border: 2px white solid;
+ 	padding: 0px 20px 0px 20px;
+ 	top: 3px;
+ }
+
+ /*ESTICOLS CSSS DEL MENU CON SUS ICONS__________________*/
+.menu{
+	margin: 0;
+	width: auto;
+	background-color: #424242;
+text-align: center;
+font-family: 'Righteous';
+padding: 10px 10px;
+
+}
+.menu_icon{
+	position: absolute;
+	width: auto;
+	height: auto;
+	right: 85%;
+	top: 5px;
+}
+
+
+
+.cont_menu{
+	margin-top: -18px;
+
+}
+.menu_cuerpo{
+	right:100%;
+	position: absolute;
+	background:#00acc1;
+	width: 100%;
+	height: 111%;
+	color: white;
+	z-index: 1000;
+
+}
+.seccion{
+	border-left: 5px white solid;
+	border-bottom: 1px white solid;
+	width:100%;
+	font-family: 'Righteous';
+	font-size: 20px;
+    padding-top: 10px; 
+    padding-left: 10px;
+
+}
+.seccion_cerrar{
+	background: white;
+}
+
+
+.menu_icon i{
+	font-size: 40px;
+	color: white;
+	background: transparent;
+}
+.cerrar_menu{
+	position: absolute;
+	bottom: 0px;
+	top:83%;
+	text-decoration: none;
+	background: white;
+	width: 100%;
+
+
+}
+.cerrar_menu a{
+	bottom: 2px;
+	left: 55%;
+  background: transparent;
+  box-shadow: none;
+  color: #424242;
+}
+.cerrar_menu a:hover{
+  background: transparent;
+  box-shadow: none;
+}
+.cerrar_menu i{
+	font-size: 20px;
+}
+
+
+
+/*____________________________________*/
+
+.carta{
+	font-family: 'Righteous';
+	color:white;
+	 border-radius: 10px;
+}
+.carta i{
+	font-size: 40px;
+}
+
+.btn_iniciar{
+	font-family: 'Righteous';
+	width:60%;
+	border-radius: 10px;
+}
+.carta_about{
+	margin-top: -20px;
+	font-family: 'Righteous';
+	text-align: justify;
+
+}
